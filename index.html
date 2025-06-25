@@ -1,62 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <h1><abbr title="HyperText Markup Language">Html</abbr> básico e algumas tags</h1>
+    <hr>
+    <h2 id="tags">Tags</h2>
+    <p>
+        <ul>
+            <li><a href="#main">&ltmain&gt </a></li>
+            <li><a href="#section">&ltsection&gt</a></li>
+            <li><a href="#aside">&ltasice&gt</a></li>
+            <li><a href="#article">&ltarticle&gt</a></li>
+            
+        </ul> <br> <hr>
+    </p>
+    <h2 id="main"><u>main</u></h2><small><a href="#tags">voltar</a></small>
+    <p>A tag <mark>main</mark> é onde fica o conteúdo principal da página do <br> website, é uma tag <strong>semantica</strong> e so pode ser usada uma por página</p>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+    <h2 id="section"><u>section</u></h2><a href="#tags">voltar</a></small>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p> Tag <strong>semantica</strong> que indica a seção dentro do conteúdo <br>principal no caso o <i>main</i> dentro do main pode ter varias sections </p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="aside"><u>aside</u></h2><a href="#tags">voltar</a></small>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>Assim como <i>section</i> é uma seção dentro do <i>main</i><br> a tag <mark>aside</mark> é uma seção também, mais sendo <br> mais espefico ela é um assunto axilar do assunto principal. <br>
+    <blockquote>Exemplo: <q>O main fala de carros o aside vai falar de aluguéis de carros</q></blockquote> </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="article"><u>article</u></h2><a href="#tags">voltar</a></small>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p> É uma tag que você coloca um conteúdo tipo um artigo <br> e dentro desta teg tem mais duas que é usada para datas </p>
+    <ol><li>&lttimedatetime&gt</li>
+    <li>&lttimepubdate&gt</li></ol>
+    <br>
+    <hr>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+    <h4>referências</h4>
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML">mdn web docs_</blockquote>
 
 </body>
 </html>
